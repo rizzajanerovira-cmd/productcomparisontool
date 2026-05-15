@@ -1,0 +1,192 @@
+﻿Diagnose log at 2026-05-15T14:05:22Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.7.3+5fa7116896c82164996a609accd1c5ad90fe730a
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 26200)
+Reading environment variables... OK
+ Variables:
+OneDriveConsumer=C:\Users\A\OneDrive
+ProgramFiles(x86)=C:\Program Files (x86)
+MSYSTEM=MINGW64
+ProgramW6432=C:\Program Files
+windir=C:\WINDOWS
+PROCESSOR_IDENTIFIER=AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
+TMP=C:\Users\A\AppData\Local\Temp
+CODEX_INTERNAL_ORIGINATOR_OVERRIDE=codex_vscode
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+VSCODE_CWD=C:\Users\A\Desktop\Comparison tools
+PROCESSOR_REVISION=5000
+TEMP=C:\Users\A\AppData\Local\Temp
+USERPROFILE=C:\Users\A
+LOGONSERVER=\\DESKTOP-55QAK0A
+TERM=xterm-256color
+USERNAME=A
+SystemRoot=C:\WINDOWS
+CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_6648_VTNKYLHGPSNMJAUF
+CODEX_THREAD_ID=019e2bf0-6985-7b81-81ff-2687da1923b7
+PLINK_PROTOCOL=ssh
+PATH=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\A\bin;C:\Users\A\.codex\tmp\arg0\codex-arg0leqoYo;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\A\AppData\Local\Microsoft\WindowsApps;C:\Users\A\AppData\Roaming\npm;C:\Users\A\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\A\AppData\Local\Python\bin;c:\Users\A\.vscode\extensions\openai.chatgpt-26.506.31421-win32-x64\bin\windows-x86_64
+OneDrive=C:\Users\A\OneDrive
+PROCESSOR_ARCHITECTURE=AMD64
+CommonProgramFiles=C:\Program Files\Common Files
+RUST_LOG=warn
+ProgramData=C:\ProgramData
+LC_CTYPE=C.UTF-8
+HOMEPATH=\Users\A
+COMPUTERNAME=DESKTOP-55QAK0A
+VSCODE_NLS_CONFIG={"userLocale":"en-us","osLocale":"en-ph","resolvedLanguage":"en","defaultMessagesFile":"C:\\Users\\A\\AppData\\Local\\Programs\\Microsoft VS Code\\0958016b2a\\resources\\app\\out\\nls.messages.json","locale":"en-us","availableLanguages":{}}
+VSCODE_HANDLES_UNCAUGHT_ERRORS=true
+ALLUSERSPROFILE=C:\ProgramData
+CommonProgramW6432=C:\Program Files\Common Files
+VSCODE_ESM_ENTRYPOINT=vs/workbench/api/node/extensionHostProcess
+PT8HOME=D:\Cisco Packet Tracer 8.2.2
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+ELECTRON_NO_ATTACH_CONSOLE=1
+SESSIONNAME=Console
+VSCODE_IPC_HOOK=\\.\pipe\503d4fb2-1.120.0-main-sock
+EFC_7580_1592913036=1
+DriverData=C:\Windows\System32\Drivers\DriverData
+HOMEDRIVE=C:
+VSCODE_CLI=1
+VSCODE_CRASH_REPORTER_PROCESS_TYPE=extensionHost
+GIT_TRACE2_PARENT_SID=7ddf274c-78e3-47ad-a698-afed2ee934d7
+SystemDrive=C:
+NUMBER_OF_PROCESSORS=12
+OS=Windows_NT
+ProgramFiles=C:\Program Files
+ComSpec=C:\WINDOWS\system32\cmd.exe
+USERDOMAIN_ROAMINGPROFILE=DESKTOP-55QAK0A
+HOME=C:\Users\A
+PSModulePath=C:\Users\A\OneDrive\ドキュメント\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+CODEX_SANDBOX_NETWORK_DISABLED=1
+ELECTRON_RUN_AS_NODE=1
+PROMPT=$P$G
+TMPDIR=C:\Users\A\AppData\Local\Temp
+VSCODE_PID=6648
+APPDATA=C:\Users\A\AppData\Roaming
+USERDOMAIN=DESKTOP-55QAK0A
+PROCESSOR_LEVEL=25
+LOCALAPPDATA=C:\Users\A\AppData\Local
+DEBUG=release
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+COLORTERM=truecolor
+VSCODE_CODE_CACHE_PATH=C:\Users\A\AppData\Roaming\Code\CachedData\0958016b2af9f09bb4257e0df4a95e2f90590f9f
+PUBLIC=C:\Users\Public
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\A\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\A\AppData\Local\Temp\ac7744188cbf79058e637044'... OK
+Reading from temporary file 'C:\Users\A\AppData\Local\Temp\ac7744188cbf79058e637044'... OK
+Deleting temporary file 'C:\Users\A\AppData\Local\Temp\ac7744188cbf79058e637044'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\A
+UserDataDirectoryPath: C:\Users\A\.gcm
+GetCurrentDirectory(): C:\Users\A\Desktop\Comparison tools
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:60521/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.53.0.windows.2'
+Locating current repository...Git repository at 'C:/Users/A/Desktop/Comparison tools/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=schannel
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/A/.gitconfig	user.email=Juliodeguzman168@gmail.com
+file:C:/Users/A/.gitconfig	user.name=JLDGZMN
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/rizzajanerovira-cmd/productcomparisontool.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\A\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\A\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
