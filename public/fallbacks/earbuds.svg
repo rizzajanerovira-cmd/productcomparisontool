@@ -1,0 +1,27 @@
+<svg width="640" height="480" viewBox="0 0 640 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="480" rx="40" fill="url(#bg)"/>
+  <circle cx="476" cy="122" r="98" fill="#FFFFFF" fill-opacity=".34"/>
+  <g filter="url(#shadow)">
+    <rect x="194" y="160" width="252" height="168" rx="64" fill="url(#case)"/>
+    <path d="M236 168H404C409 168 414 172 414 178V222C414 249 392 272 365 272H275C248 272 226 249 226 222V178C226 172 231 168 236 168Z" fill="#FFF1F2"/>
+    <rect x="250" y="200" width="44" height="74" rx="22" fill="#FFFFFF"/>
+    <rect x="346" y="200" width="44" height="74" rx="22" fill="#FFFFFF"/>
+    <rect x="258" y="240" width="28" height="46" rx="14" fill="#F8FAFC"/>
+    <rect x="354" y="240" width="28" height="46" rx="14" fill="#F8FAFC"/>
+  </g>
+  <defs>
+    <linearGradient id="bg" x1="64" y1="50" x2="586" y2="424" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE4E6"/>
+      <stop offset=".52" stop-color="#FFF1F2"/>
+      <stop offset="1" stop-color="#FBCFE8"/>
+    </linearGradient>
+    <linearGradient id="case" x1="212" y1="172" x2="418" y2="318" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset=".55" stop-color="#FCE7F3"/>
+      <stop offset="1" stop-color="#FDA4AF"/>
+    </linearGradient>
+    <filter id="shadow" x="154" y="134" width="332" height="234" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#881337" flood-opacity=".14"/>
+    </filter>
+  </defs>
+</svg>

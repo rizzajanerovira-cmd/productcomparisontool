@@ -35,7 +35,7 @@ export default function ComparePage() {
     <main className="mx-auto flex w-full max-w-7xl flex-1 flex-col px-4 py-10 sm:px-6 lg:px-8">
       <section className="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
         <div className="max-w-3xl">
-          <Badge className="rounded-full bg-white/85 text-slate-700 shadow-sm">
+          <Badge className="rounded-full border-yellow-200 bg-yellow-100 text-yellow-900 shadow-sm">
             Comparison view
           </Badge>
           <h1 className="mt-4 text-4xl font-semibold tracking-tight text-slate-950 sm:text-5xl">
@@ -84,7 +84,7 @@ export default function ComparePage() {
             href="/browse"
             className={cn(
               buttonVariants({ size: "lg" }),
-              "rounded-full bg-slate-900 px-5 text-white hover:bg-slate-800"
+              "rounded-full bg-yellow-400 px-5 text-yellow-950 hover:bg-yellow-300"
             )}
           >
             Keep browsing
@@ -110,7 +110,7 @@ export default function ComparePage() {
           >
             <p className="text-sm font-semibold text-slate-950">{product.name}</p>
             <p className="mt-1 text-sm text-slate-500">{product.bestFor}</p>
-            <p className="mt-4 text-sm font-medium text-cyan-800">
+            <p className="mt-4 text-sm font-medium text-yellow-700">
               Open full product details
             </p>
           </button>

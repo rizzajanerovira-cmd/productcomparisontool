@@ -292,7 +292,7 @@ const brandedTablets: Product[] = [
     name: "Lenovo Idea Tab Pro",
     category: "Tablets",
     imageUrl:
-      "https://p1-ofp.static.pub//fes/cms/2025/05/29/sfw34ky2o0jalxwtvnr9q7t0n7kk3v351995.png?height=584&width=584",
+      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=1200&q=80",
     price: 429,
     rating: 4.5,
     reviewCount: 344,
@@ -315,7 +315,7 @@ const brandedTablets: Product[] = [
     pros: ["Large crisp display", "Generous battery capacity", "Useful pen and keyboard support"],
     cons: ["LCD instead of OLED", "Accessory ecosystem is smaller than Apple’s"],
     summary: "A larger Lenovo tablet for study, entertainment, and light productivity on Android.",
-    imageLabel: "Official Lenovo product image",
+    imageLabel: "Large premium Android tablet",
     tags: ["lenovo", "tablet", "android", "productivity"],
   },
 ]
@@ -454,7 +454,7 @@ const skyworthDisplays: Product[] = [
     name: 'Skyworth 55" 4K Google TV',
     category: "TVs/Monitors",
     imageUrl:
-      "https://skyworth-tv.oss-cn-shenzhen.aliyuncs.com/upload/image/201909/20190918002145540.jpg",
+      "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=1200&q=80",
     price: 499,
     rating: 4.3,
     reviewCount: 298,
@@ -477,7 +477,7 @@ const skyworthDisplays: Product[] = [
     pros: ["Affordable 4K entry point", "Google TV convenience", "Slim modern look"],
     cons: ["HDR impact is limited", "60Hz panel only"],
     summary: "A value Skyworth TV for streaming, casual console play, and everyday family viewing.",
-    imageLabel: "Official Skyworth product image",
+    imageLabel: "Modern 4K television in a living room",
     tags: ["skyworth", "tv", "4k", "google-tv"],
     featured: true,
   },
@@ -486,7 +486,7 @@ const skyworthDisplays: Product[] = [
     name: 'Skyworth 65" QLED TV',
     category: "TVs/Monitors",
     imageUrl:
-      "https://skyworth-tv.oss-cn-shenzhen.aliyuncs.com/upload/image/201909/20190918002145540.jpg",
+      "https://images.unsplash.com/photo-1461151304267-38535e780c79?auto=format&fit=crop&w=1200&q=80",
     price: 799,
     rating: 4.5,
     reviewCount: 184,
@@ -509,7 +509,7 @@ const skyworthDisplays: Product[] = [
     pros: ["Large immersive panel", "Better color volume than standard LED", "Good value at this size"],
     cons: ["Black levels are only decent", "UI performance can vary by region"],
     summary: "A larger Skyworth TV aimed at movie nights, sports, and family-room streaming.",
-    imageLabel: "Official Skyworth product image",
+    imageLabel: "Large premium television setup",
     tags: ["skyworth", "tv", "qled", "large-screen"],
   },
   {
@@ -517,7 +517,7 @@ const skyworthDisplays: Product[] = [
     name: 'Skyworth 55" OLED TV',
     category: "TVs/Monitors",
     imageUrl:
-      "https://skyworth-tv.oss-cn-shenzhen.aliyuncs.com/upload/image/201909/20190918002145540.jpg",
+      "https://images.unsplash.com/photo-1577979749830-f1d742b96791?auto=format&fit=crop&w=1200&q=80",
     price: 1199,
     rating: 4.6,
     reviewCount: 122,
@@ -540,7 +540,7 @@ const skyworthDisplays: Product[] = [
     pros: ["Excellent contrast", "Strong movie experience", "Better motion and gaming support"],
     cons: ["Costs more than LED models", "Potential static-image care needed"],
     summary: "A premium Skyworth OLED for home theater buyers who care about contrast and cinematic depth.",
-    imageLabel: "Official Skyworth product image",
+    imageLabel: "Cinematic OLED television display",
     tags: ["skyworth", "tv", "oled", "cinema"],
   },
   {
@@ -548,7 +548,7 @@ const skyworthDisplays: Product[] = [
     name: 'Skyworth 75" Mini-LED TV',
     category: "TVs/Monitors",
     imageUrl:
-      "https://skyworth-tv.oss-cn-shenzhen.aliyuncs.com/upload/image/201909/20190918002145540.jpg",
+      "https://images.unsplash.com/photo-1601944179066-29786cb9d32a?auto=format&fit=crop&w=1200&q=80",
     price: 1499,
     rating: 4.5,
     reviewCount: 96,
@@ -571,7 +571,7 @@ const skyworthDisplays: Product[] = [
     pros: ["Very large and bright panel", "Strong refresh rate for gaming", "Better HDR impact than standard LED"],
     cons: ["Huge footprint", "Premium pricing within the brand"],
     summary: "A larger Skyworth TV for buyers who want size, brightness, and smoother gaming support.",
-    imageLabel: "Official Skyworth product image",
+    imageLabel: "Bright large-format gaming television",
     tags: ["skyworth", "tv", "mini-led", "gaming"],
   },
 ]
@@ -758,6 +758,8 @@ const legacyProducts: Product[] = [
     id: "laptop-zenbook-air",
     name: "Zenbook Air 14",
     category: "Laptops",
+    imageUrl:
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1200&q=80",
     price: 1299,
     rating: 4.8,
     reviewCount: 533,
@@ -780,7 +782,7 @@ const legacyProducts: Product[] = [
     pros: ["Very light and premium", "Excellent OLED panel", "Strong battery endurance"],
     cons: ["Limited ports", "Not meant for heavy gaming"],
     summary: "A thin-and-light laptop that feels premium without sacrificing battery life.",
-    imageLabel: "Slim silver laptop",
+    imageLabel: "Slim silver ultraportable laptop",
     tags: ["portable", "oled", "work"],
     featured: true,
   },
@@ -788,6 +790,8 @@ const legacyProducts: Product[] = [
     id: "laptop-terra-pro-16",
     name: "Terra Pro 16",
     category: "Laptops",
+    imageUrl:
+      "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?auto=format&fit=crop&w=1200&q=80",
     price: 1899,
     rating: 4.7,
     reviewCount: 318,
@@ -810,13 +814,15 @@ const legacyProducts: Product[] = [
     pros: ["Strong multi-core performance", "Color-accurate display", "Generous RAM"],
     cons: ["Heavier chassis", "Fan noise under load"],
     summary: "A high-power laptop for editing, rendering, and multitasking-heavy workflows.",
-    imageLabel: "Dark creator laptop",
+    imageLabel: "Powerful creator laptop on a desk",
     tags: ["creator", "mini-led", "workstation"],
   },
   {
     id: "laptop-summit-15",
     name: "Summit 15 Everyday",
     category: "Laptops",
+    imageUrl:
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
     price: 899,
     rating: 4.4,
     reviewCount: 890,
@@ -839,13 +845,15 @@ const legacyProducts: Product[] = [
     pros: ["Good port selection", "Comfortable keyboard", "Fair price for the specs"],
     cons: ["Display contrast is average", "Speakers are only okay"],
     summary: "A balanced midrange laptop for students, work, and casual entertainment.",
-    imageLabel: "Everyday clamshell laptop",
+    imageLabel: "Everyday laptop in a workspace",
     tags: ["student", "value", "everyday"],
   },
   {
     id: "laptop-vector-g7",
     name: "Vector G7",
     category: "Laptops",
+    imageUrl:
+      "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=1200&q=80",
     price: 2199,
     rating: 4.6,
     reviewCount: 271,
@@ -868,13 +876,15 @@ const legacyProducts: Product[] = [
     pros: ["Outstanding gaming power", "Fast high-refresh display", "Plenty of storage"],
     cons: ["Shorter battery life", "Bulky charger"],
     summary: "A desktop-class gaming laptop for demanding AAA titles and esports.",
-    imageLabel: "Gaming laptop with RGB",
+    imageLabel: "High-performance gaming laptop",
     tags: ["gaming", "rtx", "240hz"],
   },
   {
     id: "laptop-orbit-13",
     name: "Orbit 13 Flex",
     category: "Laptops",
+    imageUrl:
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=1200&q=80",
     price: 1099,
     rating: 4.5,
     reviewCount: 467,
@@ -897,13 +907,15 @@ const legacyProducts: Product[] = [
     pros: ["Exceptional battery life", "Quiet fanless feel", "Versatile touchscreen form factor"],
     cons: ["Some app compatibility caveats", "Not for heavy 3D workloads"],
     summary: "A long-endurance ultraportable that prioritizes mobility and simplicity.",
-    imageLabel: "Convertible thin laptop",
+    imageLabel: "Compact flexible laptop for travel",
     tags: ["battery", "portable", "2-in-1"],
   },
   {
     id: "laptop-studio-book",
     name: "Studio Book 17",
     category: "Laptops",
+    imageUrl:
+      "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1200&q=80",
     price: 2499,
     rating: 4.7,
     reviewCount: 198,
@@ -926,7 +938,7 @@ const legacyProducts: Product[] = [
     pros: ["Exceptional display quality", "Very strong sustained performance", "Quiet under load"],
     cons: ["High price", "Limited upgrade flexibility"],
     summary: "A premium workstation-class laptop with excellent display fidelity and battery balance.",
-    imageLabel: "Large premium laptop",
+    imageLabel: "Large premium workstation laptop",
     tags: ["display", "creative", "premium"],
   },
   {
@@ -1166,6 +1178,8 @@ const legacyProducts: Product[] = [
     id: "earbuds-sonic-pro",
     name: "Sonic Pro Buds",
     category: "Earbuds",
+    imageUrl:
+      "https://www.apple.com/v/airpods-pro/r/images/meta/og__c0ceegchesom_overview.png",
     price: 249,
     rating: 4.7,
     reviewCount: 1262,
@@ -1196,6 +1210,8 @@ const legacyProducts: Product[] = [
     id: "earbuds-pulse-open",
     name: "Pulse Open Fit",
     category: "Earbuds",
+    imageUrl:
+      "https://www.apple.com/v/airpods/ae/images/meta/airpods__dh7xkbort402_og.png",
     price: 179,
     rating: 4.5,
     reviewCount: 648,
@@ -1225,6 +1241,8 @@ const legacyProducts: Product[] = [
     id: "earbuds-echo-max",
     name: "Echo Max Headphones",
     category: "Earbuds",
+    imageUrl:
+      "https://www.apple.com/v/airpods-max/k/images/meta/airpods-max_overview__c2mz40a3bugm_og.png",
     price: 329,
     rating: 4.8,
     reviewCount: 857,
@@ -1254,6 +1272,8 @@ const legacyProducts: Product[] = [
     id: "earbuds-breeze-mini",
     name: "Breeze Mini Buds",
     category: "Earbuds",
+    imageUrl:
+      "https://www.apple.com/v/airpods-4/g/images/meta/airpods-4__gnjh1t3yjxm6_og.png",
     price: 89,
     rating: 4.2,
     reviewCount: 1531,
@@ -1283,6 +1303,8 @@ const legacyProducts: Product[] = [
     id: "camera-lumen-r6",
     name: "Lumen R6 Mirrorless",
     category: "Cameras",
+    imageUrl:
+      "https://images.cdn.us-central1.gcp.commercetools.com/f7c8f2bb-aff1-4581-a826-1ad2527be222/FrontLeft-zfc-34l-vYFe2Q-r.png",
     price: 1899,
     rating: 4.8,
     reviewCount: 244,
@@ -1313,6 +1335,8 @@ const legacyProducts: Product[] = [
     id: "camera-nova-c100",
     name: "Nova C100 Compact",
     category: "Cameras",
+    imageUrl:
+      "https://images.contentstack.io/v3/assets/blt0e5ec1de4817c440/bltcac0d6bf26c893f2/65df77bda61d3c8bf3c3d9b4/cam-black-silver.png",
     price: 799,
     rating: 4.5,
     reviewCount: 612,
@@ -1342,6 +1366,8 @@ const legacyProducts: Product[] = [
     id: "camera-terra-sport",
     name: "Terra Sport Action Cam",
     category: "Cameras",
+    imageUrl:
+      "https://static.gopro.com/assets/blta2b8522e5372af40/blt8c2249b5302e98e3/66ac8ab0a4a65755391e0cf8/01-pdp-h13-gallery-1920.png?auto=webp&disable=upscale&quality=80&width=8192",
     price: 399,
     rating: 4.4,
     reviewCount: 1043,
@@ -1371,6 +1397,8 @@ const legacyProducts: Product[] = [
     id: "camera-atelier-50",
     name: "Atelier 50 Classic",
     category: "Cameras",
+    imageUrl:
+      "https://images.contentstack.io/v3/assets/blt0e5ec1de4817c440/blt7b70aa4cf3a99b00/65df77d06f5d2f36ebcbcc55/cam-top-view.png",
     price: 2499,
     rating: 4.7,
     reviewCount: 155,
@@ -1400,6 +1428,8 @@ const legacyProducts: Product[] = [
     id: "console-arcade-x",
     name: "Arcade X",
     category: "Gaming Consoles",
+    imageUrl:
+      "https://assets.xboxservices.com/assets/18/30/1830806b-d41d-40ce-a846-792df7d14e1d.jpg?n=Xbox-Series-X_Sharing_200x200_02.jpg",
     price: 499,
     rating: 4.8,
     reviewCount: 2140,
@@ -1430,6 +1460,8 @@ const legacyProducts: Product[] = [
     id: "console-playbox-slim",
     name: "PlayBox Slim",
     category: "Gaming Consoles",
+    imageUrl:
+      "https://i.ytimg.com/vi_webp/VGjpnx4-ANY/maxresdefault.webp",
     price: 449,
     rating: 4.7,
     reviewCount: 1982,
@@ -1459,6 +1491,8 @@ const legacyProducts: Product[] = [
     id: "console-pixel-portable",
     name: "Pixel Portable OLED",
     category: "Gaming Consoles",
+    imageUrl:
+      "https://assets.nintendo.com/image/upload/v1643742733/ncom/global/social-share.jpg",
     price: 349,
     rating: 4.6,
     reviewCount: 1756,
@@ -1488,6 +1522,8 @@ const legacyProducts: Product[] = [
     id: "console-handheld-core",
     name: "Handheld Core 2",
     category: "Gaming Consoles",
+    imageUrl:
+      "https://clan.fastly.steamstatic.com/images/39049601/cd78aecb9b08a705ea2008a833c2b03f1305c848.jpg",
     price: 699,
     rating: 4.5,
     reviewCount: 624,

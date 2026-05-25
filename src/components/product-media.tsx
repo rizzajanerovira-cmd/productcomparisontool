@@ -85,9 +85,7 @@ export function ProductMedia({
               )}
             />
           </div>
-        ) : (
-          <MockProductVisual category={category} compact={compact} />
-        )}
+        ) : null}
         <p
           className={cn(
             "max-w-[12rem] text-sm font-medium text-slate-600",
@@ -96,110 +94,6 @@ export function ProductMedia({
         >
           {label}
         </p>
-      </div>
-    </div>
-  )
-}
-
-function MockProductVisual({
-  category,
-  compact,
-}: {
-  category: Category
-  compact: boolean
-}) {
-  const frameClass = compact ? "scale-[0.88]" : "scale-100"
-
-  if (category === "Smartphones") {
-    return (
-      <div className={cn("absolute inset-x-5 bottom-4 top-16 flex items-end justify-center", frameClass)}>
-        <div className="relative h-24 w-16 rounded-[1.4rem] border border-slate-300/70 bg-[linear-gradient(180deg,#f8fafc,#cbd5e1)] shadow-[0_16px_20px_rgba(15,23,42,0.12)]">
-          <div className="absolute left-1/2 top-2 h-1 w-8 -translate-x-1/2 rounded-full bg-slate-300" />
-          <div className="absolute inset-[5px] rounded-[1rem] bg-[radial-gradient(circle_at_top,#eff6ff,#dbeafe_46%,#cbd5e1)]" />
-          <div className="absolute right-2 top-2 size-3 rounded-full border border-white/70 bg-slate-200 shadow-sm" />
-        </div>
-      </div>
-    )
-  }
-
-  if (category === "Laptops") {
-    return (
-      <div className={cn("absolute inset-x-5 bottom-4 top-16 flex items-end justify-center", frameClass)}>
-        <div className="relative">
-          <div className="h-16 w-28 rounded-t-[1rem] rounded-b-sm border border-slate-300/70 bg-[linear-gradient(180deg,#f8fafc,#dbeafe)] shadow-[0_16px_20px_rgba(15,23,42,0.12)]" />
-          <div className="absolute inset-[6px] rounded-[0.7rem] bg-[radial-gradient(circle_at_top,#ecfeff,#bae6fd_52%,#cbd5e1)]" />
-          <div className="mx-auto h-2 w-36 rounded-b-full bg-[linear-gradient(180deg,#cbd5e1,#94a3b8)]" />
-        </div>
-      </div>
-    )
-  }
-
-  if (category === "Tablets") {
-    return (
-      <div className={cn("absolute inset-x-5 bottom-4 top-16 flex items-end justify-center", frameClass)}>
-        <div className="relative h-20 w-28 rounded-[1.3rem] border border-slate-300/70 bg-[linear-gradient(180deg,#f8fafc,#dbeafe)] shadow-[0_16px_20px_rgba(15,23,42,0.12)]">
-          <div className="absolute inset-[6px] rounded-[1rem] bg-[radial-gradient(circle_at_top,#ecfeff,#bfdbfe_50%,#cbd5e1)]" />
-          <div className="absolute right-2 top-1/2 size-1.5 -translate-y-1/2 rounded-full bg-slate-300" />
-        </div>
-      </div>
-    )
-  }
-
-  if (category === "Smartwatches") {
-    return (
-      <div className={cn("absolute inset-x-5 bottom-4 top-16 flex items-end justify-center", frameClass)}>
-        <div className="relative flex items-center justify-center">
-          <div className="h-20 w-5 rounded-full bg-slate-300/90" />
-          <div className="absolute size-16 rounded-[1.6rem] border border-slate-300/70 bg-[radial-gradient(circle_at_top,#fef3c7,#fde68a_38%,#f8fafc)] shadow-[0_16px_20px_rgba(15,23,42,0.12)]">
-            <div className="absolute inset-[6px] rounded-[1.15rem] bg-[radial-gradient(circle_at_top,#fff7ed,#fde68a_42%,#e2e8f0)]" />
-          </div>
-        </div>
-      </div>
-    )
-  }
-
-  if (category === "Earbuds") {
-    return (
-      <div className={cn("absolute inset-x-5 bottom-4 top-16 flex items-end justify-center", frameClass)}>
-        <div className="relative h-20 w-24 rounded-[1.6rem] bg-[linear-gradient(180deg,#fff1f2,#fecdd3)] shadow-[0_16px_20px_rgba(15,23,42,0.12)]">
-          <div className="absolute left-5 top-6 h-8 w-5 rounded-full bg-white shadow-sm" />
-          <div className="absolute right-5 top-6 h-8 w-5 rounded-full bg-white shadow-sm" />
-          <div className="absolute left-6 top-11 h-4 w-3 rounded-full bg-slate-100" />
-          <div className="absolute right-6 top-11 h-4 w-3 rounded-full bg-slate-100" />
-        </div>
-      </div>
-    )
-  }
-
-  if (category === "Cameras") {
-    return (
-      <div className={cn("absolute inset-x-5 bottom-4 top-16 flex items-end justify-center", frameClass)}>
-        <div className="relative h-16 w-28 rounded-[1.2rem] bg-[linear-gradient(180deg,#334155,#0f172a)] shadow-[0_18px_24px_rgba(15,23,42,0.2)]">
-          <div className="absolute left-1/2 top-1/2 size-10 -translate-x-1/2 -translate-y-1/2 rounded-full border-[6px] border-slate-400 bg-slate-900" />
-          <div className="absolute right-4 top-4 size-3 rounded-full bg-slate-300" />
-          <div className="absolute left-5 top-3 h-3 w-6 rounded-full bg-slate-500" />
-        </div>
-      </div>
-    )
-  }
-
-  if (category === "Gaming Consoles") {
-    return (
-      <div className={cn("absolute inset-x-5 bottom-4 top-16 flex items-end justify-center", frameClass)}>
-        <div className="relative flex items-end gap-4">
-          <div className="h-24 w-10 rounded-[1.1rem] bg-[linear-gradient(180deg,#111827,#334155)] shadow-[0_16px_20px_rgba(15,23,42,0.12)]" />
-          <div className="mb-1 h-10 w-16 rounded-[1rem] bg-[linear-gradient(180deg,#f8fafc,#cbd5e1)] shadow-[0_16px_20px_rgba(15,23,42,0.12)]" />
-        </div>
-      </div>
-    )
-  }
-
-  return (
-    <div className={cn("absolute inset-x-5 bottom-4 top-16 flex items-end justify-center", frameClass)}>
-      <div className="relative">
-        <div className="h-16 w-28 rounded-[1rem] border border-slate-300/70 bg-[linear-gradient(180deg,#e0f2fe,#bae6fd)] shadow-[0_16px_20px_rgba(15,23,42,0.12)]" />
-        <div className="absolute inset-[6px] rounded-[0.7rem] bg-[radial-gradient(circle_at_center,#f8fafc,#dbeafe_55%,#bfdbfe)]" />
-        <div className="mx-auto h-2 w-10 rounded-b-full bg-slate-400" />
       </div>
     </div>
   )

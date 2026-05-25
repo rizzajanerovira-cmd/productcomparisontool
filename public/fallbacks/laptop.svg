@@ -1,0 +1,32 @@
+<svg width="640" height="480" viewBox="0 0 640 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="480" rx="40" fill="url(#bg)"/>
+  <circle cx="144" cy="118" r="92" fill="#FFFFFF" fill-opacity=".42"/>
+  <circle cx="518" cy="334" r="118" fill="#E2E8F0" fill-opacity=".72"/>
+  <g filter="url(#shadow)">
+    <rect x="154" y="104" width="332" height="202" rx="18" fill="#CBD5E1"/>
+    <rect x="166" y="116" width="308" height="178" rx="12" fill="url(#screen)"/>
+    <rect x="110" y="306" width="420" height="18" rx="9" fill="#94A3B8"/>
+    <path d="M80 324H560C548 347 528 362 504 362H136C112 362 92 347 80 324Z" fill="url(#base)"/>
+    <rect x="287" y="326" width="66" height="6" rx="3" fill="#64748B"/>
+  </g>
+  <defs>
+    <linearGradient id="bg" x1="56" y1="46" x2="594" y2="434" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E2E8F0"/>
+      <stop offset=".45" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#DBEAFE"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="190" y1="136" x2="440" y2="270" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ECFEFF"/>
+      <stop offset=".5" stop-color="#BFDBFE"/>
+      <stop offset="1" stop-color="#93C5FD"/>
+    </linearGradient>
+    <linearGradient id="base" x1="80" y1="324" x2="560" y2="362" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#CBD5E1"/>
+      <stop offset=".5" stop-color="#E2E8F0"/>
+      <stop offset="1" stop-color="#94A3B8"/>
+    </linearGradient>
+    <filter id="shadow" x="50" y="76" width="540" height="326" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="22" stdDeviation="18" flood-color="#0F172A" flood-opacity=".16"/>
+    </filter>
+  </defs>
+</svg>
