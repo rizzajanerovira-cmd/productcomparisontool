@@ -76,7 +76,7 @@ export default function ComparePage() {
             </p>
             <p className="text-sm text-slate-600">
               Lower prices and lighter weights are highlighted as better values.
-              Higher ratings, battery scores, performance, RAM, storage, and
+              Higher ratings, battery scores, benchmark scores, performance, RAM, storage, and
               warranty coverage are also called out.
             </p>
           </div>

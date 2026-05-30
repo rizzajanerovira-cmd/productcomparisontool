@@ -78,6 +78,13 @@ const rows: CompareRow[] = [
     better: "higher" as const,
   },
   {
+    key: "benchmark",
+    label: "Benchmark",
+    getValue: (product: Product) => product.benchmark,
+    getMetric: (product: Product) => product.benchmarkScore,
+    better: "higher" as const,
+  },
+  {
     key: "camera",
     label: "Camera",
     getValue: (product: Product) => product.camera,

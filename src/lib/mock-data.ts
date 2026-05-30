@@ -1,6 +1,34 @@
 import type { Product } from "@/lib/types"
 
-const brandedSmartphones: Product[] = [
+type ProductSeed = Omit<Product, "benchmark" | "benchmarkScore"> &
+  Partial<Pick<Product, "benchmark" | "benchmarkScore">>
+
+function createBenchmarkScore(product: ProductSeed) {
+  const multiplierByCategory = {
+    Smartphones: 100,
+    Laptops: 190,
+    Tablets: 115,
+    Smartwatches: 55,
+    Earbuds: 40,
+    Cameras: 70,
+    "Gaming Consoles": 160,
+    "TVs/Monitors": 95,
+  } as const
+
+  return Math.round(product.performanceScore * multiplierByCategory[product.category])
+}
+
+function withBenchmark(product: ProductSeed): Product {
+  const benchmarkScore = product.benchmarkScore ?? createBenchmarkScore(product)
+
+  return {
+    ...product,
+    benchmarkScore,
+    benchmark: product.benchmark ?? `${benchmarkScore.toLocaleString("en-US")} pts`,
+  }
+}
+
+const brandedSmartphones: ProductSeed[] = [
   {
     id: "smartphone-iphone-17",
     name: "iPhone 17",
@@ -192,7 +220,7 @@ const brandedSmartphones: Product[] = [
   },
 ]
 
-const brandedTablets: Product[] = [
+const brandedTablets: ProductSeed[] = [
   {
     id: "tablet-ipad-air-m4",
     name: "iPad Air M4",
@@ -320,7 +348,7 @@ const brandedTablets: Product[] = [
   },
 ]
 
-const brandedSmartwatches: Product[] = [
+const brandedSmartwatches: ProductSeed[] = [
   {
     id: "watch-garmin-vivoactive-6",
     name: "Garmin vivoactive 6",
@@ -448,7 +476,7 @@ const brandedSmartwatches: Product[] = [
   },
 ]
 
-const skyworthDisplays: Product[] = [
+const skyworthDisplays: ProductSeed[] = [
   {
     id: "display-skyworth-google-tv-55",
     name: 'Skyworth 55" 4K Google TV',
@@ -576,7 +604,7 @@ const skyworthDisplays: Product[] = [
   },
 ]
 
-const legacyProducts: Product[] = [
+const legacyProducts: ProductSeed[] = [
   {
     id: "smartphone-aether-x1",
     name: "Aether X1 Pro",
@@ -1681,7 +1709,7 @@ export const products: Product[] = [
   ...brandedTablets,
   ...brandedSmartwatches,
   ...skyworthDisplays,
-]
+].map(withBenchmark)
 
 export const productMap = Object.fromEntries(
   products.map((product) => [product.id, product])

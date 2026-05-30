@@ -36,6 +36,8 @@ export type Product = {
   display: string
   battery: string
   batteryScore: number
+  benchmark: string
+  benchmarkScore: number
   performance: string
   performanceScore: number
   camera: string

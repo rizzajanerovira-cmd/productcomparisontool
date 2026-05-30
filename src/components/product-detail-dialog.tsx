@@ -28,6 +28,7 @@ const detailItems = [
   { key: "storage", label: "Storage" },
   { key: "display", label: "Display" },
   { key: "battery", label: "Battery" },
+  { key: "benchmark", label: "Benchmark" },
   { key: "camera", label: "Camera" },
   { key: "weight", label: "Weight" },
   { key: "warranty", label: "Warranty" },
