@@ -7,7 +7,7 @@ const brandedSmartphones: Product[] = [
     category: "Smartphones",
     imageUrl:
       "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-compare-iphone-17-202509?.v=M0dlUVBobHVpY1h1dmlaR3RZekpENGh0eTVTNkN2NWpWZVAwbzMwQlBCTkxxZU5scXpES1hnUm96ckN1R2pZN215d1FhSDJ0bkR0ZGZtUjZJNmFveFo2eWNJSlJFRDM1UWQ2eUozZ1l5ZDA&fmt=png-alpha&hei=512&wid=400",
-    price: 799,
+    price: 64990,
     rating: 4.7,
     reviewCount: 1118,
     processor: "A19",
@@ -39,7 +39,7 @@ const brandedSmartphones: Product[] = [
     category: "Smartphones",
     imageUrl:
       "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-compare-iphone-air-202509?.v=M0dlUVBobHVpY1h1dmlaR3RZekpEMGtrRFZUNExaR0FUNGxJZXJuT2lqUjE5VXk1QVF5NWxrMFlTNWNpV2huNVM0TjRWdzF2UjRGVEY0c3dBQVZ6VGUza2N1YW5ubjVFaHZuNzNKcFIzTnc&fmt=png-alpha&hei=512&wid=400",
-    price: 999,
+    price: 72990,
     rating: 4.6,
     reviewCount: 824,
     processor: "A19 Pro",
@@ -70,7 +70,7 @@ const brandedSmartphones: Product[] = [
     category: "Smartphones",
     imageUrl:
       "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-compare-iphone-17-pro-202509?.v=M0dlUVBobHVpY1h1dmlaR3RZekpEMi9sbCsxVVJmYjNiS29STjQrZEV5NnNlL1VpWDFHcHBMQXVUWWdWdkZZNGJPbDJJWDFrVGJEYlIxTitTcHhVWldNTk4rSDJkMy8vL20va2hrM1NheXZ4VldteDRHenNWeThpV3EzUWVVd2o&fmt=png-alpha&hei=512&wid=400",
-    price: 1099,
+    price: 94990,
     rating: 4.9,
     reviewCount: 946,
     processor: "A19 Pro",
@@ -102,7 +102,7 @@ const brandedSmartphones: Product[] = [
     category: "Smartphones",
     imageUrl:
       "https://image-us.samsung.com/us/smartphones/galaxy-s25/images/galaxy-s25-features-kv.jpg",
-    price: 799,
+    price: 51990,
     rating: 4.7,
     reviewCount: 1033,
     processor: "Snapdragon 8 Elite for Galaxy",
@@ -133,7 +133,7 @@ const brandedSmartphones: Product[] = [
     category: "Smartphones",
     imageUrl:
       "https://images.samsung.com/is/image/samsung/assets/us/smartphones/galaxy-s25-ultra/images/galaxy-s25-ultra-features-highlights-galaxy-ai-a-start.jpg",
-    price: 1299,
+    price: 93990,
     rating: 4.8,
     reviewCount: 1184,
     processor: "Snapdragon 8 Elite for Galaxy",
@@ -165,7 +165,7 @@ const brandedSmartphones: Product[] = [
     category: "Smartphones",
     imageUrl:
       "https://image-us.samsung.com/us/smartphones/galaxy-z-fold6/images/galaxy-z-fold6-features-kv.jpg",
-    price: 1899,
+    price: 113990,
     rating: 4.5,
     reviewCount: 611,
     processor: "Snapdragon 8 Gen 3 for Galaxy",
@@ -199,7 +199,7 @@ const brandedTablets: Product[] = [
     category: "Tablets",
     imageUrl:
       "https://www.apple.com/v/ipad-air/ah/images/meta/ipad-air_overview__bc2fd15uec0y_og.png",
-    price: 599,
+    price: 42990,
     rating: 4.8,
     reviewCount: 702,
     processor: "Apple M4",
@@ -231,7 +231,7 @@ const brandedTablets: Product[] = [
     category: "Tablets",
     imageUrl:
       "https://www.apple.com/v/ipad-pro/aw/images/meta/ipad-pro_overview__bu4cql27diaa_og.png",
-    price: 999,
+    price: 74990,
     rating: 4.9,
     reviewCount: 488,
     processor: "Apple M5",
@@ -327,7 +327,7 @@ const brandedSmartwatches: Product[] = [
     category: "Smartwatches",
     imageUrl:
       "https://res.garmin.com/en/products/010-02985-04/v/cf-lg.jpg",
-    price: 299,
+    price: 19490,
     rating: 4.7,
     reviewCount: 431,
     processor: "Garmin wellness platform",
@@ -359,7 +359,7 @@ const brandedSmartwatches: Product[] = [
     category: "Smartwatches",
     imageUrl:
       "https://res.garmin.com/en/products/010-02810-01/v/cf-lg.jpg",
-    price: 449,
+    price: 28250,
     rating: 4.8,
     reviewCount: 522,
     processor: "Garmin training platform",
@@ -390,7 +390,7 @@ const brandedSmartwatches: Product[] = [
     category: "Smartwatches",
     imageUrl:
       "https://i02.appmifile.com/mi-com-product/fly-birds/xiaomi-watch-s4/pc/83b9bf1fc1dd85c8511cdf069f16577a.jpg",
-    price: 159,
+    price: 6499,
     rating: 4.4,
     reviewCount: 613,
     processor: "Xiaomi HyperOS wearable platform",
@@ -518,7 +518,7 @@ const skyworthDisplays: Product[] = [
     category: "TVs/Monitors",
     imageUrl:
       "https://images.unsplash.com/photo-1577979749830-f1d742b96791?auto=format&fit=crop&w=1200&q=80",
-    price: 1199,
+    price: 69990,
     rating: 4.6,
     reviewCount: 122,
     processor: "Skyworth premium picture engine",
@@ -549,7 +549,7 @@ const skyworthDisplays: Product[] = [
     category: "TVs/Monitors",
     imageUrl:
       "https://images.unsplash.com/photo-1601944179066-29786cb9d32a?auto=format&fit=crop&w=1200&q=80",
-    price: 1499,
+    price: 86990,
     rating: 4.5,
     reviewCount: 96,
     processor: "Skyworth premium picture engine",
@@ -760,7 +760,7 @@ const legacyProducts: Product[] = [
     category: "Laptops",
     imageUrl:
       "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1200&q=80",
-    price: 1299,
+    price: 84990,
     rating: 4.8,
     reviewCount: 533,
     processor: "Intel Core Ultra 7 268V",
@@ -792,7 +792,7 @@ const legacyProducts: Product[] = [
     category: "Laptops",
     imageUrl:
       "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?auto=format&fit=crop&w=1200&q=80",
-    price: 1899,
+    price: 109990,
     rating: 4.7,
     reviewCount: 318,
     processor: "AMD Ryzen AI 9 HX 370",
@@ -854,7 +854,7 @@ const legacyProducts: Product[] = [
     category: "Laptops",
     imageUrl:
       "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=1200&q=80",
-    price: 2199,
+    price: 159990,
     rating: 4.6,
     reviewCount: 271,
     processor: "Intel Core Ultra 9 285H + RTX 5080",
@@ -885,7 +885,7 @@ const legacyProducts: Product[] = [
     category: "Laptops",
     imageUrl:
       "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=1200&q=80",
-    price: 1099,
+    price: 63990,
     rating: 4.5,
     reviewCount: 467,
     processor: "Snapdragon X Plus",
@@ -916,7 +916,7 @@ const legacyProducts: Product[] = [
     category: "Laptops",
     imageUrl:
       "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1200&q=80",
-    price: 2499,
+    price: 149990,
     rating: 4.7,
     reviewCount: 198,
     processor: "Apple M5 Pro",
@@ -1180,7 +1180,7 @@ const legacyProducts: Product[] = [
     category: "Earbuds",
     imageUrl:
       "https://www.apple.com/v/airpods-pro/r/images/meta/og__c0ceegchesom_overview.png",
-    price: 249,
+    price: 14490,
     rating: 4.7,
     reviewCount: 1262,
     processor: "Sonic Audio Core",
@@ -1243,7 +1243,7 @@ const legacyProducts: Product[] = [
     category: "Earbuds",
     imageUrl:
       "https://www.apple.com/v/airpods-max/k/images/meta/airpods-max_overview__c2mz40a3bugm_og.png",
-    price: 329,
+    price: 18990,
     rating: 4.8,
     reviewCount: 857,
     processor: "Echo Sound Engine X",
@@ -1305,7 +1305,7 @@ const legacyProducts: Product[] = [
     category: "Cameras",
     imageUrl:
       "https://images.cdn.us-central1.gcp.commercetools.com/f7c8f2bb-aff1-4581-a826-1ad2527be222/FrontLeft-zfc-34l-vYFe2Q-r.png",
-    price: 1899,
+    price: 109900,
     rating: 4.8,
     reviewCount: 244,
     processor: "Lumen Image X",
@@ -1399,7 +1399,7 @@ const legacyProducts: Product[] = [
     category: "Cameras",
     imageUrl:
       "https://images.contentstack.io/v3/assets/blt0e5ec1de4817c440/blt7b70aa4cf3a99b00/65df77d06f5d2f36ebcbcc55/cam-top-view.png",
-    price: 2499,
+    price: 144900,
     rating: 4.7,
     reviewCount: 155,
     processor: "Atelier Color Engine",
@@ -1430,7 +1430,7 @@ const legacyProducts: Product[] = [
     category: "Gaming Consoles",
     imageUrl:
       "https://assets.xboxservices.com/assets/18/30/1830806b-d41d-40ce-a846-792df7d14e1d.jpg?n=Xbox-Series-X_Sharing_200x200_02.jpg",
-    price: 499,
+    price: 32500,
     rating: 4.8,
     reviewCount: 2140,
     processor: "Zen 5 + RDNA 4",
@@ -1462,7 +1462,7 @@ const legacyProducts: Product[] = [
     category: "Gaming Consoles",
     imageUrl:
       "https://i.ytimg.com/vi_webp/VGjpnx4-ANY/maxresdefault.webp",
-    price: 449,
+    price: 30000,
     rating: 4.7,
     reviewCount: 1982,
     processor: "Zen 4 + RDNA 3.5",
@@ -1524,7 +1524,7 @@ const legacyProducts: Product[] = [
     category: "Gaming Consoles",
     imageUrl:
       "https://clan.fastly.steamstatic.com/images/39049601/cd78aecb9b08a705ea2008a833c2b03f1305c848.jpg",
-    price: 699,
+    price: 41990,
     rating: 4.5,
     reviewCount: 624,
     processor: "Ryzen Z2 Extreme",
