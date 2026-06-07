@@ -73,13 +73,13 @@ export default function BrowsePage() {
     <main className="mx-auto flex w-full max-w-7xl flex-1 flex-col px-4 py-10 sm:px-6 lg:px-8">
       <section className="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
         <div className="max-w-3xl">
-          <Badge className="rounded-full bg-white/85 text-slate-700 shadow-sm">
+          <Badge className="rounded-full bg-white/85 text-slate-700 shadow-sm dark:bg-white/10 dark:text-slate-200">
             Product browsing
           </Badge>
-          <h1 className="mt-4 text-4xl font-semibold tracking-tight text-slate-950 sm:text-5xl">
+          <h1 className="mt-4 text-4xl font-semibold tracking-tight text-slate-950 dark:text-slate-50 sm:text-5xl">
             Find the right gadget, then compare it side by side.
           </h1>
-          <p className="mt-4 text-base leading-7 text-slate-600">
+          <p className="mt-4 text-base leading-7 text-slate-600 dark:text-slate-300">
             Search across the catalog, filter by category, and sort by the
             criteria people actually use to decide: price, rating, battery, and
             performance.
@@ -92,8 +92,8 @@ export default function BrowsePage() {
             buttonVariants({ size: "lg" }),
             "rounded-full px-5 text-white",
             canCompare
-              ? "bg-slate-900 hover:bg-slate-800"
-              : "pointer-events-none bg-slate-300 text-white"
+              ? "bg-slate-900 hover:bg-slate-800 dark:bg-slate-100 dark:text-slate-950 dark:hover:bg-slate-200"
+              : "pointer-events-none bg-slate-300 text-white dark:bg-slate-700 dark:text-slate-300"
           )}
         >
           Compare {compareCount} selected
@@ -113,12 +113,12 @@ export default function BrowsePage() {
       </div>
 
       <div className="mt-8 flex items-center justify-between gap-4">
-        <p className="text-sm text-slate-500">
-          Showing <span className="font-semibold text-slate-900">{filteredProducts.length}</span>{" "}
+        <p className="text-sm text-slate-500 dark:text-slate-400">
+          Showing <span className="font-semibold text-slate-900 dark:text-slate-100">{filteredProducts.length}</span>{" "}
           matching products
         </p>
-        <p className="text-sm text-slate-500">
-          Compare up to <span className="font-semibold text-slate-900">4</span> at a time
+        <p className="text-sm text-slate-500 dark:text-slate-400">
+          Compare up to <span className="font-semibold text-slate-900 dark:text-slate-100">4</span> at a time
         </p>
       </div>
 

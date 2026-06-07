@@ -141,17 +141,17 @@ export function ComparisonTable({
         {products.map((product) => (
           <div
             key={product.id}
-            className="rounded-[2rem] border border-black/5 bg-white p-5 shadow-[0_18px_45px_-32px_rgba(15,23,42,0.4)]"
+            className="rounded-[2rem] border border-black/5 bg-white p-5 shadow-[0_18px_45px_-32px_rgba(15,23,42,0.4)] dark:border-white/10 dark:bg-white/6"
           >
             <div className="flex items-start justify-between gap-4">
               <div className="min-w-0 flex-1">
                 <Badge className="rounded-full bg-slate-900 text-white">
                   {product.bestFor}
                 </Badge>
-                <h3 className="mt-3 text-lg font-semibold tracking-tight text-slate-950">
+                <h3 className="mt-3 text-lg font-semibold tracking-tight text-slate-950 dark:text-slate-100">
                   {product.name}
                 </h3>
-                <p className="mt-1 text-sm text-slate-500">{product.category}</p>
+                <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">{product.category}</p>
               </div>
               <Button
                 variant="outline"
@@ -174,12 +174,12 @@ export function ComparisonTable({
               {rows.map((row) => (
                 <div
                   key={`${product.id}-${row.key}`}
-                  className="rounded-2xl border border-black/5 bg-slate-50/70 p-3"
+                  className="rounded-2xl border border-black/5 bg-slate-50/70 p-3 dark:border-white/10 dark:bg-white/5"
                 >
-                  <p className="text-[11px] font-medium tracking-wide text-slate-500 uppercase">
+                  <p className="text-[11px] font-medium tracking-wide text-slate-500 uppercase dark:text-slate-400">
                     {row.label}
                   </p>
-                  <p className="mt-1 text-sm font-medium text-slate-900">
+                  <p className="mt-1 text-sm font-medium text-slate-900 dark:text-slate-100">
                     {row.getValue(product)}
                   </p>
                 </div>
@@ -190,11 +190,11 @@ export function ComparisonTable({
       </div>
 
       <div className="hidden lg:block">
-        <div className="overflow-hidden rounded-[2rem] border border-black/5 bg-white shadow-[0_24px_70px_-36px_rgba(15,23,42,0.4)]">
+        <div className="overflow-hidden rounded-[2rem] border border-black/5 bg-white shadow-[0_24px_70px_-36px_rgba(15,23,42,0.4)] dark:border-white/10 dark:bg-slate-950/75">
           <Table className="table-fixed min-w-[1040px]">
             <TableHeader>
-              <TableRow className="border-black/5 bg-slate-50/80 hover:bg-slate-50/80">
-                <TableHead className="sticky left-0 z-10 w-52 bg-slate-50/95 px-5 py-4 text-slate-500 backdrop-blur">
+              <TableRow className="border-black/5 bg-slate-50/80 hover:bg-slate-50/80 dark:border-white/10 dark:bg-white/5 dark:hover:bg-white/5">
+                <TableHead className="sticky left-0 z-10 w-52 bg-slate-50/95 px-5 py-4 text-slate-500 backdrop-blur dark:bg-slate-950/95 dark:text-slate-400">
                   Spec
                 </TableHead>
                 {products.map((product) => (
@@ -212,10 +212,10 @@ export function ComparisonTable({
                       <div className="space-y-2">
                         <div className="flex items-start justify-between gap-3">
                           <div className="min-w-0">
-                            <p className="text-sm font-semibold whitespace-normal text-slate-950">
+                            <p className="text-sm font-semibold whitespace-normal text-slate-950 dark:text-slate-100">
                               {product.name}
                             </p>
-                            <p className="mt-1 text-xs font-medium text-slate-500">
+                            <p className="mt-1 text-xs font-medium text-slate-500 dark:text-slate-400">
                               {product.category}
                             </p>
                           </div>
@@ -240,8 +240,8 @@ export function ComparisonTable({
             </TableHeader>
             <TableBody>
               {rows.map((row) => (
-                <TableRow key={row.key} className="border-black/5 hover:bg-slate-50/60">
-                  <TableCell className="sticky left-0 z-10 bg-white px-5 py-4 align-top text-sm font-semibold text-slate-700">
+                <TableRow key={row.key} className="border-black/5 hover:bg-slate-50/60 dark:border-white/10 dark:hover:bg-white/5">
+                  <TableCell className="sticky left-0 z-10 bg-white px-5 py-4 align-top text-sm font-semibold text-slate-700 dark:bg-slate-950 dark:text-slate-200">
                     {row.label}
                   </TableCell>
                   {products.map((product) => {
@@ -261,7 +261,7 @@ export function ComparisonTable({
                         <div
                           className={
                             isWinner
-                              ? "rounded-2xl border border-emerald-200 bg-emerald-50/80 p-3"
+                              ? "rounded-2xl border border-emerald-200 bg-emerald-50/80 p-3 dark:border-emerald-400/25 dark:bg-emerald-400/10"
                               : "rounded-2xl border border-transparent p-3"
                           }
                         >
@@ -269,7 +269,7 @@ export function ComparisonTable({
                             {isWinner ? (
                               <Trophy className="mt-0.5 size-4 shrink-0 text-emerald-600" />
                             ) : null}
-                            <span className="text-sm leading-6 whitespace-normal text-slate-700">
+                            <span className="text-sm leading-6 whitespace-normal text-slate-700 dark:text-slate-200">
                               {row.getValue(product)}
                             </span>
                           </div>

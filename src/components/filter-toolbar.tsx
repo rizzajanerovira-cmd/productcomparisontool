@@ -28,27 +28,27 @@ export function FilterToolbar({
   onSortChange: (value: SortOption) => void
 }) {
   return (
-    <div className="rounded-[2rem] border border-black/5 bg-white/90 p-4 shadow-[0_18px_45px_-32px_rgba(15,23,42,0.45)] sm:p-5">
+    <div className="rounded-[2rem] border border-black/5 bg-white/90 p-4 shadow-[0_18px_45px_-32px_rgba(15,23,42,0.45)] dark:border-white/10 dark:bg-white/6 sm:p-5">
       <div className="grid gap-4 lg:grid-cols-[1.5fr_0.9fr_0.9fr]">
         <label className="block">
-          <span className="mb-2 flex items-center gap-2 text-sm font-medium text-slate-700">
-            <Search className="size-4 text-slate-500" />
+          <span className="mb-2 flex items-center gap-2 text-sm font-medium text-slate-700 dark:text-slate-200">
+            <Search className="size-4 text-slate-500 dark:text-slate-400" />
             Search products
           </span>
           <Input
             value={search}
             onChange={(event) => onSearchChange(event.target.value)}
             placeholder="Search by product, chip, best-for tag, or category"
-            className="h-11 rounded-2xl border-slate-200 bg-slate-50 px-4 text-sm text-slate-900 placeholder:text-slate-400"
+            className="h-11 rounded-2xl border-slate-200 bg-slate-50 px-4 text-sm text-slate-900 placeholder:text-slate-400 dark:border-white/10 dark:bg-white/5 dark:text-slate-100 dark:placeholder:text-slate-500"
           />
         </label>
 
         <div>
-          <span className="mb-2 block text-sm font-medium text-slate-700">
+          <span className="mb-2 block text-sm font-medium text-slate-700 dark:text-slate-200">
             Category
           </span>
           <Select value={category} onValueChange={(value) => onCategoryChange(value as Category | "all")}>
-            <SelectTrigger className="h-11 w-full rounded-2xl border-slate-200 bg-slate-50 px-4 text-slate-900">
+            <SelectTrigger className="h-11 w-full rounded-2xl border-slate-200 bg-slate-50 px-4 text-slate-900 dark:border-white/10 dark:bg-white/5 dark:text-slate-100">
               <SelectValue placeholder="All categories" />
             </SelectTrigger>
             <SelectContent>
@@ -63,12 +63,12 @@ export function FilterToolbar({
         </div>
 
         <div>
-          <span className="mb-2 flex items-center gap-2 text-sm font-medium text-slate-700">
-            <ArrowDownWideNarrow className="size-4 text-slate-500" />
+          <span className="mb-2 flex items-center gap-2 text-sm font-medium text-slate-700 dark:text-slate-200">
+            <ArrowDownWideNarrow className="size-4 text-slate-500 dark:text-slate-400" />
             Sort by
           </span>
           <Select value={sortBy} onValueChange={(value) => onSortChange(value as SortOption)}>
-            <SelectTrigger className="h-11 w-full rounded-2xl border-slate-200 bg-slate-50 px-4 text-slate-900">
+            <SelectTrigger className="h-11 w-full rounded-2xl border-slate-200 bg-slate-50 px-4 text-slate-900 dark:border-white/10 dark:bg-white/5 dark:text-slate-100">
               <SelectValue placeholder="Featured" />
             </SelectTrigger>
             <SelectContent>

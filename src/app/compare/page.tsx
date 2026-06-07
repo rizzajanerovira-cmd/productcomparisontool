@@ -35,13 +35,13 @@ export default function ComparePage() {
     <main className="mx-auto flex w-full max-w-7xl flex-1 flex-col px-4 py-10 sm:px-6 lg:px-8">
       <section className="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
         <div className="max-w-3xl">
-          <Badge className="rounded-full border-yellow-200 bg-yellow-100 text-yellow-900 shadow-sm">
+          <Badge className="rounded-full border-yellow-200 bg-yellow-100 text-yellow-900 shadow-sm dark:border-yellow-400/20 dark:bg-yellow-400/10 dark:text-yellow-200">
             Comparison view
           </Badge>
-          <h1 className="mt-4 text-4xl font-semibold tracking-tight text-slate-950 sm:text-5xl">
+          <h1 className="mt-4 text-4xl font-semibold tracking-tight text-slate-950 dark:text-slate-50 sm:text-5xl">
             Review the differences before you buy.
           </h1>
-          <p className="mt-4 text-base leading-7 text-slate-600">
+          <p className="mt-4 text-base leading-7 text-slate-600 dark:text-slate-300">
             Compare up to four selected products with aligned columns, clear
             value highlighting, and responsive fallbacks for smaller screens.
           </p>
@@ -51,7 +51,7 @@ export default function ComparePage() {
             href="/browse"
             className={cn(
               buttonVariants({ variant: "outline", size: "lg" }),
-              "rounded-full border-slate-200 bg-white px-5 text-slate-700"
+              "rounded-full border-slate-200 bg-white px-5 text-slate-700 dark:border-white/10 dark:bg-white/5 dark:text-slate-100"
             )}
           >
             <ArrowLeft className="size-4" />
@@ -60,7 +60,7 @@ export default function ComparePage() {
           <Button
             variant="outline"
             size="lg"
-            className="rounded-full border-slate-200 bg-white px-5 text-slate-700"
+            className="rounded-full border-slate-200 bg-white px-5 text-slate-700 dark:border-white/10 dark:bg-white/5 dark:text-slate-100"
             onClick={clearComparison}
           >
             Clear Comparison
@@ -68,13 +68,13 @@ export default function ComparePage() {
         </div>
       </section>
 
-      <div className="mt-8 rounded-[2rem] border border-black/5 bg-white/90 p-5 shadow-[0_18px_45px_-32px_rgba(15,23,42,0.42)]">
+      <div className="mt-8 rounded-[2rem] border border-black/5 bg-white/90 p-5 shadow-[0_18px_45px_-32px_rgba(15,23,42,0.42)] dark:border-white/10 dark:bg-white/6">
         <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
           <div>
-            <p className="text-sm font-semibold text-slate-950">
+            <p className="text-sm font-semibold text-slate-950 dark:text-slate-100">
               {compareCount} product{compareCount > 1 ? "s" : ""} selected
             </p>
-            <p className="text-sm text-slate-600">
+            <p className="text-sm text-slate-600 dark:text-slate-300">
               Lower prices and lighter weights are highlighted as better values.
               Higher ratings, battery scores, benchmark scores, performance, RAM, storage, and
               warranty coverage are also called out.
@@ -84,7 +84,7 @@ export default function ComparePage() {
             href="/browse"
             className={cn(
               buttonVariants({ size: "lg" }),
-              "rounded-full bg-yellow-400 px-5 text-yellow-950 hover:bg-yellow-300"
+              "rounded-full bg-yellow-400 px-5 text-yellow-950 hover:bg-yellow-300 dark:bg-yellow-300 dark:hover:bg-yellow-200"
             )}
           >
             Keep browsing
@@ -106,11 +106,11 @@ export default function ComparePage() {
             key={product.id}
             type="button"
             onClick={() => setActiveProduct(product)}
-            className="rounded-[1.5rem] border border-black/5 bg-white px-5 py-4 text-left shadow-[0_18px_45px_-34px_rgba(15,23,42,0.4)] transition-transform hover:-translate-y-0.5"
+            className="rounded-[1.5rem] border border-black/5 bg-white px-5 py-4 text-left shadow-[0_18px_45px_-34px_rgba(15,23,42,0.4)] transition-transform hover:-translate-y-0.5 dark:border-white/10 dark:bg-white/6"
           >
-            <p className="text-sm font-semibold text-slate-950">{product.name}</p>
-            <p className="mt-1 text-sm text-slate-500">{product.bestFor}</p>
-            <p className="mt-4 text-sm font-medium text-yellow-700">
+            <p className="text-sm font-semibold text-slate-950 dark:text-slate-100">{product.name}</p>
+            <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">{product.bestFor}</p>
+            <p className="mt-4 text-sm font-medium text-yellow-700 dark:text-yellow-300">
               Open full product details
             </p>
           </button>
