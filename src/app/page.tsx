@@ -56,8 +56,8 @@ export default function Home() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(103,232,249,0.18),transparent_35%),radial-gradient(circle_at_top_right,rgba(251,191,36,0.16),transparent_32%),linear-gradient(180deg,rgba(248,250,252,0.92),rgba(255,255,255,0.98))] dark:bg-[radial-gradient(circle_at_top_left,rgba(34,211,238,0.18),transparent_35%),radial-gradient(circle_at_top_right,rgba(250,204,21,0.12),transparent_32%),linear-gradient(180deg,rgba(7,17,31,0.94),rgba(12,23,40,0.98))]" />
         <div className="relative mx-auto grid w-full max-w-7xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-[1.1fr_0.9fr] lg:px-8 lg:py-24">
           <div className="max-w-3xl">
-            <Badge className="rounded-full bg-white/80 px-3 py-1 text-slate-700 shadow-sm dark:bg-white/10 dark:text-slate-200">
-              Minimal gadget comparison, built for faster buying decisions
+            <Badge className="rounded-full bg-white/80 px-4 py-2 text-sm font-semibold tracking-[0.18em] text-slate-700 uppercase shadow-sm dark:bg-white/10 dark:text-slate-200">
+              CHOOSETECH helps you compare smarter before you buy
             </Badge>
             <h1 className="mt-6 text-5xl font-semibold tracking-tight text-slate-950 dark:text-slate-50 sm:text-6xl">
               Compare gadgets side by side without the clutter.

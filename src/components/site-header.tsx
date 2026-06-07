@@ -28,11 +28,11 @@ export function SiteHeader() {
             <Scale className="size-5" />
           </div>
           <div>
-            <p className="text-sm font-semibold tracking-tight text-slate-900 dark:text-slate-100">
-              Gadget Compare
+            <p className="text-lg font-bold tracking-[0.2em] uppercase text-slate-900 dark:text-slate-100 sm:text-xl">
+              CHOOSETECH
             </p>
             <p className="text-xs text-slate-500 dark:text-slate-400">
-              Compare before you commit
+              Choose better tech before you commit
             </p>
           </div>
         </Link>

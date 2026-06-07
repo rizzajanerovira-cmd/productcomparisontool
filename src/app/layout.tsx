@@ -6,8 +6,8 @@ import { SiteHeader } from "@/components/site-header";
 import { Toaster } from "@/components/ui/sonner";
 
 export const metadata: Metadata = {
-  title: "Gadget Compare",
-  description: "A clean, responsive gadget comparison tool built with Next.js and shadcn/ui.",
+  title: "CHOOSETECH",
+  description: "choosetech is a clean, responsive product comparison experience built with Next.js and shadcn/ui.",
 };
 
 export default function RootLayout({
